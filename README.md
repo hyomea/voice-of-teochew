@@ -1,6 +1,6 @@
-# 🗣️ Voice of Chaozhou / 潮州话之声
+# 🗣️ Voice of Teochew / 潮州话之声
 
-**Voice of Chaozhou** is an open-source project dedicated to preserving and empowering the 潮州话 (Teochew/Chaozhou dialect) through speech technology.  
+**Voice of Teochew** is an open-source project dedicated to preserving and empowering the 潮州话 (Teochew/Chaozhou dialect) through speech technology.  
 **潮州话之声** 是一个开源项目，旨在通过语音技术保护和赋能潮州话这一主要依靠口语传承的方言。
 
 Inspired by Meta AI’s work on speech-to-speech translation (S2ST) for unwritten languages, this initiative combines community-driven audio collection with cutting-edge AI models to build practical tools for recognition, translation, and revitalization.  
