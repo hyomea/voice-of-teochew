@@ -1,0 +1,38 @@
+# note:
+# pyenv install 3.11.8
+# pyenv virtualenv 3.11.8 whisper311
+# pyenv activate whisper311
+
+# # Optional: Set local version for your project folder
+# pyenv local whisper311
+
+# # Then install dependencies
+# pip install -r requirements.txt
+
+# If You Created a venv Manually
+# python -m venv whisperenv
+# source whisperenv/bin/activate
+
+# in VS Code:
+# Open Command Palette → Python: Select Interpreter, choose ./whisperenv/bin/python
+
+# Resample wav to 16kHZ for whisper:
+# find clips/ -name "*.wav" | while read f; do
+#   ffmpeg -y -i "$f" -ar 16000 -ac 1 -map_metadata -1 -c:a pcm_s16le "${f%.wav}_tmp.wav" && mv "${f%.wav}_tmp.wav" "$f"
+# done
+
+# Run TensorBoard in terminal
+# tensorboard --logdir=./logs --port=6006
+
+
+torch==2.1.0
+torchaudio==2.1.0
+transformers==4.39.3
+datasets==2.18.0
+accelerate==0.27.2
+librosa==0.10.1
+numpy==1.26.4
+tensorboard
+evaluate 
+jiwer
+
