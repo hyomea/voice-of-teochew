@@ -1,0 +1,13 @@
+paddleocr>=2.6.1
+paddlepaddle>=2.5.0
+
+opencv-python>=4.5.5
+
+ffmpeg-python>=0.2.0
+numpy>=1.23
+scipy>=1.10
+rapidfuzz>=3.6
+
+easyocr>=1.7.1
+
+# pip install paddlepaddle -f https://paddlepaddle.org.cn/whl/macos/macos.html
