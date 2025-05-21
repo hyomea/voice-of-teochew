@@ -28,3 +28,7 @@ Inspired by Meta AI’s work on speech-to-speech translation (S2ST) for unwritte
 - 🧑‍🤝‍🧑 Build a global network of contributors and advocates  
   建立全球贡献者与支持者社区
 
+## 📺 YouTube Resources
+
+1. [潮汕文化](https://youtube.com/channel/UCGQ_P9phkkMrFs0TAm8RnVw?si=W5VkMKmZTKOcy8Vp)
+
