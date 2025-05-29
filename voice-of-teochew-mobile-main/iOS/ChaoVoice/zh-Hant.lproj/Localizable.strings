@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  ChaoVoice
+
+  Created by Xiaomei Huang on 5/27/25.
+  
+*/
+
+"onboarding.title.1" = "潮聲集";
+"onboarding.description.1" = "歡迎加入潮汕話語音蒐集計畫。\n讓語言成為我們連接記憶的橋樑。";
+
+"onboarding.title.2" = "錄音流程";
+"onboarding.description.2" = "朗讀句子並錄音。\n我們將用這些資料訓練語音模型，保存潮汕方言。";
+
+"dialect.chaozhou_core" = "潮州話（潮州市區）";
+"dialect.chaozhou_outskirts" = "潮州話（饒平／潮安）";
+"dialect.jieyang" = "揭陽話";
+"dialect.puning" = "普寧話";
+"dialect.shantou" = "汕頭話";
+"dialect.chenghai" = "澄海話";
+"dialect.overseas" = "海外潮汕話";
+"dialect.passive" = "我只能聽懂，不會說";
+"dialect.unsure" = "不確定／其他";
+
+"form.title" = "基本資訊";
+"form.nickname_placeholder" = "你的暱稱";
+"form.age_group" = "年齡層";
+"form.dialect" = "方言地區";
+"form.start_button" = "開始使用";
+
+"age.unspecified" = "未指定";
+"age.under18" = "18歲以下";
+"age.18_40" = "18–40歲";
+"age.40_60" = "40–60歲";
+"age.60plus" = "60歲以上";
+
+"mic_permission.title" = "🎤 使用麥克風";
+"mic_permission.description" = "我們將請求使用麥克風，以便你能朗讀句子並協助語音收集，幫助改進潮汕語識別。";
+"mic_permission.cancel" = "稍後再說";
+"mic_permission.confirm" = "允許";
+"mic_permission.hint" = "開始錄音";
+"mic_permission.alert_title" = "需要麥克風權限";
+"mic_permission.alert_message" = "請在設定中啟用麥克風權限以錄製語音。";
+"mic_permission.open_settings" = "打開設定";
+"mic_permission.cancel" = "取消";
+
+"collection.greetings" = "打招呼與寒暄";
+"collection.food" = "吃飯與飲食";
+"collection.idioms" = "潮汕俗語";
+"collection.family" = "家庭用語";
+"collection.market" = "買賣講價";
+"collection.festival" = "節慶與拜神";
+"collection.school" = "學校用語";
+"collection.tea" = "功夫茶";
+"collection.emotions" = "情緒表達";
+"collection.children" = "小朋友話語";
+"collection.rhymes" = "順口溜";
+"collection.jokes" = "笑話";
+
+"dashboard.greeting.morning" = "早安 👋";
+"dashboard.greeting.afternoon" = "午安 ☀️";
+"dashboard.greeting.evening" = "晚安 🌆";
+"dashboard.greeting.night" = "歡迎 🌙";
+"dashboard.contribution_count %lld" = "你已錄製了 %lld 段語音";
+"dashboard.streak_days" = "天連錄";
+"mic_button.submit" = "提交";

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "greetings",
+    "name": "打招呼",
+    "englishName": "Greetings",
+    "tags": [
+      "daily",
+      "basic"
+    ],
+    "totalCount": 20
+  },
+  {
+    "id": "food",
+    "name": "美食",
+    "englishName": "Food",
+    "tags": [
+      "cuisine",
+      "restaurant"
+    ],
+    "totalCount": 30
+  },
+  {
+    "id": "idioms",
+    "name": "成语",
+    "englishName": "Idioms",
+    "tags": [
+      "expression",
+      "traditional"
+    ],
+    "totalCount": 25
+  },
+  {
+    "id": "family",
+    "name": "家庭",
+    "englishName": "Family",
+    "tags": [
+      "relationship",
+      "daily"
+    ],
+    "totalCount": 18
+  },
+  {
+    "id": "market",
+    "name": "集市",
+    "englishName": "Market",
+    "tags": [
+      "shopping",
+      "bargaining"
+    ],
+    "totalCount": 22
+  },
+  {
+    "id": "rhymes",
+    "name": "顺口溜",
+    "englishName": "Rhymes",
+    "tags": [
+      "fun",
+      "cultural"
+    ],
+    "totalCount": 15
+  },
+  {
+    "id": "jokes",
+    "name": "笑话",
+    "englishName": "Jokes",
+    "tags": [
+      "funny",
+      "lighthearted"
+    ],
+    "totalCount": 12
+  }
+]

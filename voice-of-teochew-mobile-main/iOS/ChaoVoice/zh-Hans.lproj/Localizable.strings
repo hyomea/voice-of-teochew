@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  ChaoVoice
+
+  Created by Xiaomei Huang on 5/27/25.
+  
+*/
+
+"onboarding.title.1" = "潮声集";
+"onboarding.description.1" = "欢迎加入潮汕话语音采集计划。\n让语言成为我们连接记忆的桥梁。";
+
+"onboarding.title.2" = "录音流程";
+"onboarding.description.2" = "阅读指定句子并录音。\n我们将用于训练语音识别模型，保护方言文化。";
+
+"dialect.chaozhou_core" = "潮州话（潮州城区）";
+"dialect.chaozhou_outskirts" = "潮州话（饶平 / 潮安）";
+"dialect.jieyang" = "揭阳话";
+"dialect.puning" = "普宁话";
+"dialect.shantou" = "汕头话";
+"dialect.chenghai" = "澄海话";
+"dialect.overseas" = "海外潮汕话";
+"dialect.passive" = "我只能听懂，不会说";
+"dialect.unsure" = "不确定 / 其他";
+
+"form.title" = "基本信息";
+"form.nickname_placeholder" = "你的昵称";
+"form.age_group" = "年龄段";
+"form.dialect" = "方言来源";
+"form.start_button" = "开始使用";
+
+"age.unspecified" = "未选择";
+"age.under18" = "18岁以下";
+"age.18_40" = "18–40岁";
+"age.40_60" = "40–60岁";
+"age.60plus" = "60岁以上";
+
+"mic_permission.title" = "🎤 使用麦克风";
+"mic_permission.description" = "我们会请求访问麦克风，以便你可以朗读句子并进行语音采集。这有助于我们改进潮汕语识别。";
+"mic_permission.cancel" = "不了";
+"mic_permission.confirm" = "好的";
+"mic_permission.hint" = "开始录音";
+"mic_permission.alert_title" = "需要麦克风权限";
+"mic_permission.alert_message" = "请在设置中启用麦克风权限以录制语音。";
+"mic_permission.open_settings" = "打开设置";
+"mic_permission.cancel" = "取消";
+
+"collection.greetings" = "打招呼与寒暄";
+"collection.food" = "吃饭与饮食";
+"collection.idioms" = "潮汕俗语";
+"collection.family" = "家庭用语";
+"collection.market" = "买卖讲价";
+"collection.festival" = "节庆与拜神";
+"collection.school" = "学校用语";
+"collection.tea" = "功夫茶";
+"collection.emotions" = "情绪表达";
+"collection.children" = "小朋友话语";
+"collection.rhymes" = "顺口溜";
+"collection.jokes" = "笑话";
+
+"dashboard.greeting.morning" = "早上好 👋";
+"dashboard.greeting.afternoon" = "下午好 ☀️";
+"dashboard.greeting.evening" = "晚上好 🌆";
+"dashboard.greeting.night" = "欢迎 🌙";
+"dashboard.contribution_count %lld" = "你已录制了 %lld 段语音";
+"dashboard.streak_days" = "天连录";
+"mic_button.submit" = "提交";

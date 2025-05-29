@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  ChaoVoice
+
+  Created by Xiaomei Huang on 5/27/25.
+  
+*/
+CFBundleDisplayName = "潮声集";
+NSMicrophoneUsageDescription = "我们需要使用麦克风来采集您的语音，用于潮汕话语音数据的收集。";
+

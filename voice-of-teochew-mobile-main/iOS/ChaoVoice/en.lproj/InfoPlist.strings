@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  ChaoVoice
+
+  Created by Xiaomei Huang on 5/27/25.
+  
+*/
+CFBundleDisplayName = "ChaoVoice";
+NSMicrophoneUsageDescription = "We need access to your microphone to record your voice for the Teochew voice collection project.";
+

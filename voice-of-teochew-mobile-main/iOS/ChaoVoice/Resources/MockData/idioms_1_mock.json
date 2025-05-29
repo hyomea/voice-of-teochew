@@ -1,0 +1,368 @@
+{
+  "collectionId": "chaoshan_sayings",
+  "source": "local",
+  "version": 1,
+  "items": [
+    { "id": "cs_001", "teochew": "小到腊搭咚戏！", "explanation": "形容疯得无药可救。", "english": "So crazy there's no cure!" },
+    { "id": "cs_002", "teochew": "无变烧护！", "explanation": "表示事情超出他人能力范围，无法帮忙。", "english": "Beyond one's ability to help." },
+    { "id": "cs_003", "teochew": "四线担！", "explanation": "指胡乱说话。", "english": "Talking nonsense." },
+    { "id": "cs_004", "teochew": "卤到咬骨头！", "explanation": "形容非常厌恶，讨厌到极点。", "english": "So annoying it's unbearable." },
+    { "id": "cs_005", "teochew": "你爱做年物！", "explanation": "意思是“你要干什么？”", "english": "What are you doing?" },
+    { "id": "cs_006", "teochew": "白仁仔", "explanation": "骂人白痴的俗语。", "english": "Idiot." },
+    { "id": "cs_007", "teochew": "三斗油麻倒无一粒落耳", "explanation": "比喻说了一大堆，却一句也听不进去。", "english": "Talked a lot, but none was heard." },
+    { "id": "cs_008", "teochew": "担死卖变！", "explanation": "形容不接受批评，顽固不化。", "english": "Stubborn and refuses to change." },
+    { "id": "cs_009", "teochew": "双目劝在裤底！", "explanation": "什么都看不见，形容周遭一片漆黑或视力极差。", "english": "Can’t see anything at all." },
+    { "id": "cs_010", "teochew": "舍衰人！", "explanation": "真丢人！", "english": "So embarrassing!" },
+    { "id": "cs_011", "teochew": "无影无迹", "explanation": "毫无踪迹、凭据。", "english": "No trace at all." },
+    { "id": "cs_012", "teochew": "块形笠笠，吾北置帽", "explanation": "像乡下农夫一样寒酸，只配戴斗笠。", "english": "So poor that only a straw hat fits." },
+    { "id": "cs_013", "teochew": "夜路行家，遇着鬼！", "explanation": "比喻常做坏事的人终会碰上倒霉事。", "english": "He who walks dark paths will meet ghosts." },
+    { "id": "cs_014", "teochew": "坛过屎虫", "explanation": "形容懒到极点。", "english": "Lazy to the core." },
+    { "id": "cs_015", "teochew": "公过只鸭", "explanation": "形容怎么看也看不懂。", "english": "Totally incomprehensible." },
+    { "id": "cs_016", "teochew": "老人脚池又当又臭", "explanation": "比喻讲话又长又臭，啰嗦得令人讨厌。", "english": "Long-winded and annoying speech." },
+    { "id": "cs_017", "teochew": "老人试猪脚", "explanation": "比喻只是稍作尝试，并未真正投入。", "english": "Just testing, not serious." },
+    { "id": "cs_018", "teochew": "力卖着批担鼻去到下寺", "explanation": "形容做事不得要领，徒劳无功。", "english": "Working hard in the wrong direction." },
+    { "id": "cs_019", "teochew": "暗过魂宫", "explanation": "形容非常黑暗。", "english": "Dark as a ghost house." },
+    { "id": "cs_020", "teochew": "三更想，半冥反", "explanation": "形容主意不定，想法摇摆不定。", "english": "Indecisive and inconsistent." },
+    { "id": "cs_021", "teochew": "一样粥饭饲千外样人", "explanation": "比喻社会复杂，各色人等都有。", "english": "Same food feeds all kinds of people." },
+    { "id": "cs_022", "teochew": "唔相信有霞鬼迈银纸个", "explanation": "形容人都爱财，没有不喜欢钱的。", "english": "Everyone loves money, no exceptions." },
+    { "id": "cs_023", "teochew": "过脚事，歇住歇！", "explanation": "表示过去的事情就算了，不再计较。", "english": "Let the past be past." },
+    { "id": "cs_024", "teochew": "乞食齐过人家", "explanation": "形容穷人太多，富人难济贫。", "english": "Too many poor, one rich man can’t help all." },
+    { "id": "cs_025", "teochew": "半桶屎亿啊亿欢傻做强", "explanation": "比喻本领不济却自以为是。", "english": "Incompetent but arrogant." },
+    { "id": "cs_026", "teochew": "经破头脑", "explanation": "形容绞尽脑汁也没有办法。", "english": "Tried everything, still no solution." },
+    { "id": "cs_027", "teochew": "经龟经怪", "explanation": "形容总是想出些稀奇古怪的点子。", "english": "Always coming up with strange ideas." },
+    { "id": "cs_028", "teochew": "卖小卖里", "explanation": "形容人厚脸皮，不知羞耻。", "english": "Shameless." },
+    { "id": "cs_029", "teochew": "鼠鬼鼠尼", "explanation": "形容行为鬼鬼祟祟，偷偷摸摸。", "english": "Sneaky and suspicious behavior." },
+    { "id": "cs_030", "teochew": "小神小独", "explanation": "形容疯疯癫癫，言行异常。", "english": "Acting crazy and weird." },
+    
+      { "id": "cs_031", "teochew": "督鸡教猴", "explanation": "比喻以严厉手段杀一儆百。", "english": "Punish one as a warning to others." },
+      { "id": "cs_032", "teochew": "勿论正顺", "explanation": "表示做事不用过于计较，一切顺其自然。", "english": "Let things flow naturally." },
+      { "id": "cs_033", "teochew": "驴生拼死", "explanation": "形容拼命干活，像牲口一样卖力。", "english": "Work like a donkey to the bone." },
+      { "id": "cs_034", "teochew": "块康阔过否斗", "explanation": "形容事情搞砸了，损失很大。", "english": "A complete mess with big loss." },
+      { "id": "cs_035", "teochew": "食担哙，除人欠", "explanation": "形容小孩能吃会说，又顽皮淘气。", "english": "A talkative and naughty kid." },
+      { "id": "cs_036", "teochew": "老过伯爷", "explanation": "形容年纪极大。", "english": "Very old." },
+      { "id": "cs_037", "teochew": "透塘白日", "explanation": "指大白天。", "english": "Broad daylight." },
+      { "id": "cs_038", "teochew": "力脚力手", "explanation": "形容非常勤快，喜欢亲自动手帮忙。", "english": "Very diligent and helpful." },
+      { "id": "cs_039", "teochew": "哭父哭母作死人", "explanation": "形容哭得极其伤心惨烈。", "english": "Cry as if parents died." },
+      { "id": "cs_040", "teochew": "想心激事光食人", "explanation": "形容费尽心机设计骗别人。", "english": "Scheming to take advantage of others." },
+      { "id": "cs_041", "teochew": "数街路石", "explanation": "形容游手好闲，无所事事。", "english": "Loafing around idly." },
+      { "id": "cs_042", "teochew": "乌乌是字，白白是纸，我吾北依。依炭哙北我！", "explanation": "表示一点字不识，目不识丁。", "english": "Totally illiterate." },
+      { "id": "cs_043", "teochew": "静过冥寡", "explanation": "形容非常安静冷清。", "english": "As quiet as the grave." },
+      { "id": "cs_044", "teochew": "户神使莽，莽使蚊", "explanation": "形容自上而下层层支使，颐指气使。", "english": "Bossy orders trickling down." },
+      { "id": "cs_045", "teochew": "润过藤", "explanation": "形容怎么劝也不听，催促多次仍不行动。", "english": "Unmoved no matter how urged." },
+      { "id": "cs_046", "teochew": "滴汤", "explanation": "形容糟糕透顶，很差劲。", "english": "Extremely lousy." },
+      { "id": "cs_047", "teochew": "食啊未", "explanation": "（招呼语）问对方吃饭了没有。", "english": "Have you eaten yet?" },
+      { "id": "cs_048", "teochew": "划裂胶迹", "explanation": "指暗地里被人在背后说坏话。", "english": "Being bad-mouthed behind your back." },
+      { "id": "cs_049", "teochew": "殿过石靠", "explanation": "形容人非常固执顽固。", "english": "As stubborn as stone." },
+      { "id": "cs_050", "teochew": "六罗", "explanation": "指爱八卦、好打听闲事的人。", "english": "A gossipmonger." },
+      { "id": "cs_051", "teochew": "假力洗茶渣", "explanation": "比喻没帮上该帮的忙，反而多管闲事。", "english": "Interfering under the guise of helping." },
+      { "id": "cs_052", "teochew": "饱过蜘蛛", "explanation": "比喻肚子吃得胀鼓鼓。", "english": "So full like a bloated spider." },
+      { "id": "cs_053", "teochew": "迈踏踏缠", "explanation": "别啰嗦。", "english": "Stop nagging." },
+      { "id": "cs_054", "teochew": "迈斯娘!", "explanation": "不要讲价（别讨价还价）。", "english": "No haggling!" },
+      { "id": "cs_055", "teochew": "岩到爱死无命", "explanation": "形容冷到了极点。", "english": "So cold it feels fatal." },
+      { "id": "cs_056", "teochew": "敲过录龙!", "explanation": "形容穷得要命，非常贫困。", "english": "Poor to the extreme." },
+      { "id": "cs_057", "teochew": "富到留油", "explanation": "形容非常富有，富得流油。", "english": "So rich it oozes oil." },
+      { "id": "cs_058", "teochew": "胶村拨角纠", "explanation": "没事偏找事做。", "english": "Stirring up trouble for no reason." },
+      { "id": "cs_059", "teochew": "人熟礼吾熟", "explanation": "形容人虽熟络，礼数也不能少。", "english": "Courtesy should not be lost even with close ones." },
+      { "id": "cs_060", "teochew": "单柴孬邢火，单人孬沫话", "explanation": "比喻一个人无法成事，凡事需要合作商量。", "english": "One stick can't make a fire, one person can't make plans alone." },
+      { "id": "cs_061", "teochew": "牛仔吾北虎", "explanation": "初生牛犊不怕虎。", "english": "The young fear nothing." },
+      { "id": "cs_062", "teochew": "千人千般苦，无人苦病样", "explanation": "比喻各人有各人的烦恼，没有相同的苦楚。", "english": "Everyone has their own suffering." },
+      { "id": "cs_063", "teochew": "蟹有殿怕，人有硕憨!", "explanation": "比喻有人精明也有人愚笨。", "english": "There are clever and foolish ones alike." },
+      { "id": "cs_064", "teochew": "鸟飞哙落毛，人行有脚迹!", "explanation": "比喻要想人不知，除非己莫为。", "english": "Every act leaves a trace." },
+      { "id": "cs_065", "teochew": "好教仔泅，孬教仔伯树!", "explanation": "劝导孩子学游泳（有益），别爬树（危险）。", "english": "Teach good habits, not risky ones." },
+      { "id": "cs_066", "teochew": "熟过老豆酱", "explanation": "形容关系像酱缸陈料般，极为亲密。", "english": "Very close relationship." },
+      { "id": "cs_067", "teochew": "咸过卤胆", "explanation": "比喻吝啬到了极点。", "english": "So stingy it’s salty." },
+      { "id": "cs_068", "teochew": "老过康捅", "explanation": "形容非常古老、陈旧。", "english": "Extremely outdated." },
+      { "id": "cs_069", "teochew": "根棺柴着放钱银包哭", "explanation": "比喻大事小事都由一个人包办揽下。", "english": "One person bears every burden." },
+      { "id": "cs_070", "teochew": "客情好过吊项鬼", "explanation": "比喻虚情假意的热情。", "english": "Over-the-top fake friendliness." },
+      {
+        "id": "cs_071",
+        "teochew": "柴目狗耳－假灵",
+        "explanation": "讽刺自以为灵通，实则大惊小怪的人。",
+        "english": "Pretending to be clever while overreacting."
+      },
+      {
+        "id": "cs_072",
+        "teochew": "猫儿无荤无在厝，鸭仔无粟卖过夜",
+        "explanation": "比喻生灵都是要吃饱肚子的（民以食为天）。",
+        "english": "All living beings need food to survive."
+      },
+      {
+        "id": "cs_073",
+        "teochew": "鸭仔跳东司－赶伙",
+        "explanation": "比喻盲目跟风，一个接一个地凑热闹。",
+        "english": "Blindly joining the crowd."
+      },
+      {
+        "id": "cs_074",
+        "teochew": "叫掌鸡住掌鸡，叫掌鸭住掌鸭",
+        "explanation": "形容死板守旧，不懂变通。",
+        "english": "Rigid and inflexible, unable to adapt."
+      },
+      {
+        "id": "cs_075",
+        "teochew": "鸡脚长鸭脚短－有危下",
+        "explanation": "比喻人有高有低，水平参差不齐。",
+        "english": "People vary in ability and status."
+      },
+      {
+        "id": "cs_076",
+        "teochew": "放屎跋落溪－又臭又漉",
+        "explanation": "比喻又臭又湿，臭名昭著，狼狈不堪。",
+        "english": "Disgraceful and messy beyond words."
+      },
+      {
+        "id": "cs_077",
+        "teochew": "放屎欢东施墙",
+        "explanation": "比喻在很安全的情况下还要多此一举。",
+        "english": "Unnecessary actions in an already safe situation."
+      },
+      {
+        "id": "cs_078",
+        "teochew": "吐屎",
+        "explanation": "胡说八道。",
+        "english": "Talking utter nonsense."
+      },
+      {
+        "id": "cs_079",
+        "teochew": "炉底碳---块块透",
+        "explanation": "形容什么都知道，样样精通。",
+        "english": "All-knowing and highly competent."
+      },
+      {
+        "id": "cs_080",
+        "teochew": "衰鸡卖食粟",
+        "explanation": "形容像病鸡一样没有食欲，吃不下饭。",
+        "english": "Like a sick chicken with no appetite."
+      },
+      {
+        "id": "cs_081",
+        "teochew": "吾死大破相",
+        "explanation": "形容虽然没死但也遭了重创。",
+        "english": "Not dead, but seriously damaged."
+      },
+      {
+        "id": "cs_082",
+        "teochew": "十八棚头做到透",
+        "explanation": "形容什么都想试一下，但不专精。",
+        "english": "Trying everything without mastering any."
+      },
+      {
+        "id": "cs_083",
+        "teochew": "老妈宫粽球——食定正知",
+        "explanation": "比喻要亲自尝试了才知道其中滋味（真相）。",
+        "english": "Only by tasting can one know the truth."
+      },
+      {
+        "id": "cs_084",
+        "teochew": "细数畏算盘",
+        "explanation": "比喻积少成多，小钱算起来数目惊人。",
+        "english": "Even small coins add up."
+      },
+      {
+        "id": "cs_085",
+        "teochew": "块事大过鼻屎",
+        "explanation": "讽刺事情小得不值一提。",
+        "english": "A fuss over something trivial."
+      },
+      {
+        "id": "cs_086",
+        "teochew": "无脚蟹",
+        "explanation": "比喻孤立无援的弱者。",
+        "english": "A helpless and isolated person."
+      },
+      {
+        "id": "cs_087",
+        "teochew": "大细目",
+        "explanation": "指偏心眼，对人厚此薄彼。",
+        "english": "Biased or partial in treatment."
+      },
+      {
+        "id": "cs_088",
+        "teochew": "有和算",
+        "explanation": "形容事情划算、合算，值得这么做。",
+        "english": "A worthwhile and reasonable deal."
+      },
+      {
+        "id": "cs_089",
+        "teochew": "半天吊灯笼",
+        "explanation": "比喻悬在半空，上下都靠不住，事情未着落。",
+        "english": "Dangling in uncertainty."
+      },
+      {
+        "id": "cs_090",
+        "teochew": "老实终须在",
+        "explanation": "意思是老实人最终会有好结果。",
+        "english": "Honesty will eventually be rewarded."
+      },
+      {
+        "id": "cs_091",
+        "teochew": "平安当大赚",
+        "explanation": "表示平平安安就是最大的收获。",
+        "english": "Peace is the greatest profit."
+      },
+      {
+        "id": "cs_092",
+        "teochew": "牛屎佛赶人典书句",
+        "explanation": "讽刺没文化的人也喜欢引用典故。",
+        "english": "Illiterate people misusing classical quotes."
+      },
+      {
+        "id": "cs_093",
+        "teochew": "大人弯，奴囝直",
+        "explanation": "意思是大人说话委婉，小孩讲话直接天真。",
+        "english": "Adults speak tactfully, children speak bluntly."
+      },
+      {
+        "id": "cs_094",
+        "teochew": "钱仔吾使使大钱!",
+        "explanation": "意思是小钱舍不得花，将来要花大钱（小病不治变大病）。",
+        "english": "Save pennies, spend pounds."
+      },
+      {
+        "id": "cs_095",
+        "teochew": "未学行，先学飞",
+        "explanation": "讽刺不打基础就想一步登天，好高骛远。",
+        "english": "Trying to fly before learning to walk."
+      },
+      {
+        "id": "cs_096",
+        "teochew": "一人主张，唔如二人参详",
+        "explanation": "一个人不如两个人商量得好。",
+        "english": "Two heads are better than one."
+      },
+      {
+        "id": "cs_097",
+        "teochew": "乌咸汁苦",
+        "explanation": "形容衣物脏得发咸发臭，久未洗换。",
+        "english": "Clothes filthy and stinky."
+      },
+      {
+        "id": "cs_098",
+        "teochew": "通街市夺无",
+        "explanation": "表示满街都没有这种东西。",
+        "english": "Completely sold out."
+      },
+      {
+        "id": "cs_099",
+        "teochew": "塘年世春",
+        "explanation": "形容时间长久，日子漫长。",
+        "english": "Time stretches endlessly."
+      },
+      {
+        "id": "cs_100",
+        "teochew": "嘴尖舌仔利",
+        "explanation": "形容很会讲话，口才好。",
+        "english": "Sharp-tongued and eloquent."
+      },
+      {
+        "id": "cs_101",
+        "teochew": "双目朝朝摄!",
+        "explanation": "形容失败者眼睁睁看着胜利者收获成果。",
+        "english": "Watching others succeed helplessly."
+      },
+      {
+        "id": "cs_102",
+        "teochew": "纳过豆腐",
+        "explanation": "比喻屡战屡败，软弱可欺。",
+        "english": "Defeated and easily bullied."
+      },
+      {
+        "id": "cs_103",
+        "teochew": "胶罗",
+        "explanation": "表示还要很久，离目标很远。",
+        "english": "Still a long way to go."
+      },
+      {
+        "id": "cs_104",
+        "teochew": "扒掉坟扣掉灰金堡",
+        "explanation": "比喻仇恨极深，恨不得掘墓毁尸。",
+        "english": "Hatred beyond the grave."
+      },
+      {
+        "id": "cs_105",
+        "teochew": "拉甫遇着熟人",
+        "explanation": "比喻说大话时遇到知情者当面拆穿。",
+        "english": "Caught bluffing by someone in the know."
+      },
+      {
+        "id": "cs_106",
+        "teochew": "祖公无拜祭乜路头煞",
+        "explanation": "意思是自己不孝，光求神也没用。",
+        "english": "No point praying if you’re unfilial."
+      },
+      {
+        "id": "cs_107",
+        "teochew": "树大分桠仔大分家",
+        "explanation": "比喻儿女长大就要各立门户。",
+        "english": "Children grow and start their own paths."
+      },
+      {
+        "id": "cs_108",
+        "teochew": "闲过仙",
+        "explanation": "形容闲得无事可做，清闲至极。",
+        "english": "Free as a celestial being."
+      },
+      {
+        "id": "cs_109",
+        "teochew": "鸭仔听雷",
+        "explanation": "比喻听不懂，完全不了解情况。",
+        "english": "Totally clueless."
+      },
+      {
+        "id": "cs_110",
+        "teochew": "双目望无一寸长",
+        "explanation": "比喻眼光短浅，目光如豆。",
+        "english": "Short-sighted and narrow-minded."
+      },
+      {
+        "id": "cs_111",
+        "teochew": "会圈猪买方火",
+        "explanation": "形容上气不接下气，气喘吁吁。",
+        "english": "Panting and breathless."
+      },
+      {
+        "id": "cs_112",
+        "teochew": "你了籽了",
+        "explanation": "意思是“你完蛋了”。",
+        "english": "You’re screwed."
+      },
+      {
+        "id": "cs_113",
+        "teochew": "素菜荤做，见菜不见肉",
+        "explanation": "指一种潮汕素菜的做法：用肉类与蔬菜同炖提味，但上桌前将肉取出，只留下菜。",
+        "english": "Vegetarian in appearance, meat in preparation."
+      },
+      {
+        "id": "cs_114",
+        "teochew": "做戏神仙老虎鬼，做桌靠粉水",
+        "explanation": "比喻做潮汕菜要靠勾芡提味，就像戏剧要靠神仙鬼怪增加精彩一样。",
+        "english": "Theatrics and flavor both need enhancement."
+      },
+      {
+        "id": "cs_115",
+        "teochew": "猛火厚朥芬鱼露",
+        "explanation": "潮汕烹饪的秘诀：要用猛火、多放猪油，并加入鱼露提鲜。",
+        "english": "Strong fire, rich lard, and fish sauce—keys to Teochew flavor."
+      },
+      {
+        "id": "cs_116",
+        "teochew": "端午食叶，胜似服药",
+        "explanation": "指潮汕人在端午节吃各种可食用的叶子养生，胜过吃药。",
+        "english": "Eating herbs on Dragon Boat Day beats taking medicine."
+      },
+      {
+        "id": "cs_117",
+        "teochew": "七样羹，食后变后生",
+        "explanation": "指正月初七用七种蔬菜煮的羹汤可以调节肠胃，吃了有益健康。",
+        "english": "Seven-herb soup keeps you youthful."
+      },
+      {
+        "id": "cs_118",
+        "teochew": "六月鲤鱼七月和尚",
+        "explanation": "比喻农历六月鲤鱼最肥美，七月农闲和尚也因丰盛供养变胖。",
+        "english": "The best carp in June, and fat monks in July."
+      }
+    ]
+
+}
+

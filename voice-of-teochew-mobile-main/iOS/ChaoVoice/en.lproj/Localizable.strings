@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  ChaoVoice
+
+  Created by Xiaomei Huang on 5/27/25.
+  
+*/
+"onboarding.title.1" = "Voices of Teochew";
+"onboarding.description.1" = "Welcome to the Teochew speech collection project.\nLet language become a bridge to our memories.";
+
+"onboarding.title.2" = "Recording Process";
+"onboarding.description.2" = "Read sentences and record.\nWe'll use the data to train speech models and preserve our dialect.";
+
+"dialect.chaozhou_core" = "Chaozhou Dialect (City Center)";
+"dialect.chaozhou_outskirts" = "Chaozhou Dialect (Raoping/Chao’an)";
+"dialect.jieyang" = "Jieyang Dialect";
+"dialect.puning" = "Puning Dialect";
+"dialect.shantou" = "Shantou Dialect";
+"dialect.chenghai" = "Chenghai Dialect";
+"dialect.overseas" = "Overseas Teochew Dialect";
+"dialect.passive" = "I can understand, not speak";
+"dialect.unsure" = "Not Sure / Other";
+
+"form.title" = "Basic Information";
+"form.nickname_placeholder" = "Your Nickname";
+"form.age_group" = "Age Group";
+"form.dialect" = "Dialect Region";
+"form.start_button" = "Get Started";
+
+"age.unspecified" = "Not Specified";
+"age.under18" = "Under 18";
+"age.18_40" = "18–40";
+"age.40_60" = "40–60";
+"age.60plus" = "60 and above";
+
+"mic_permission.title" = "🎤 Microphone Access";
+"mic_permission.description" = "We'll ask for microphone access so you can read sentences aloud. This helps improve Teochew speech recognition.";
+"mic_permission.cancel" = "Not Now";
+"mic_permission.confirm" = "Allow";
+"mic_permission.hint" = "Press to speak";
+"mic_permission.alert_title" = "Microphone Permission Required";
+"mic_permission.alert_message" = "Please enable microphone access in Settings to record your voice.";
+"mic_permission.open_settings" = "Open Settings";
+"mic_permission.cancel" = "Cancel";
+
+"collection.greetings" = "Greetings";
+"collection.food" = "Food & Dining";
+"collection.idioms" = "Teochew Idioms";
+"collection.family" = "Family Talk";
+"collection.market" = "Market Talk";
+"collection.festival" = "Festivals & Prayers";
+"collection.school" = "School Talk";
+"collection.tea" = "Kungfu Tea";
+"collection.emotions" = "Emotions";
+"collection.children" = "Children’s Speech";
+"collection.rhymes" = "Rhyming Phrases";
+"collection.jokes" = "Jokes";
+
+
+"dashboard.greeting.morning" = "Good morning 👋";
+"dashboard.greeting.afternoon" = "Good afternoon ☀️";
+"dashboard.greeting.evening" = "Good evening 🌆";
+"dashboard.greeting.night" = "Welcome 🌙";
+"dashboard.contribution_count %lld" = "You’ve contributed %lld recordings";
+"dashboard.streak_days" = "day streak";
+
+"mic_button.submit" = "Submit";
