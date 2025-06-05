@@ -64,3 +64,37 @@
 "dashboard.contribution_count %lld" = "你已錄製了 %lld 段語音";
 "dashboard.streak_days" = "天連錄";
 "mic_button.submit" = "提交";
+
+"voice_collection.title" = "語音採集說明";
+
+"what_you_do.title" = "📌 您將要做什麼";
+"what_you_do.body" = "您會看到一張卡片，上面是：\n\n✅ 一個意思或解釋 —— 請用您自己的話說出符合該意思的潮州話句子。\n\n💬 點擊卡片可以查看背面的內容，可能會提供我們收集到的相關俗語 —— 您可以選擇參考，也可以依照自己的習慣表達。";
+
+"why_it_matters.title" = "🧠 為什麼這很重要";
+"why_it_matters.body" = "您的聲音能幫助我們：\n• 收集道地的潮州話語音與表達\n• 建立開源模型以識別與保存這種語言\n• 記錄各地多樣的說話方式";
+
+"speaking_guidelines.title" = "🗣️ 發音建議";
+"speaking_guidelines.body" = "• 使用您自然的口音（潮州、汕頭、揭陽……都歡迎）\n• 每段錄音很短，大約2–10秒\n• 風格不同也沒關係——我們歡迎各種表達方式";
+
+"note.title" = "⚠️ 注意事項";
+"note.body" = "如果提供了俗語表達，請將其視為參考，而非唯一答案。您也可以依照自己的語言習慣表達相同的意思，我們鼓勵多元化的說法。";
+
+
+"card.teochew.label" = "潮州話表達：";
+"card.english.label" = "英文解釋：";
+"common_teochew_hint" = "這只是其中一種說法，地區或家庭可能有所不同。可參考此表達方式或按你的習慣說。";
+
+"teochew_hint.title" = "提示";
+"teochew_hint.message" = "這只是其中一種說法，地區或家庭可能有所不同。您可以參考，也可以按自己的習慣表達。";
+"ok.button" = "知道了";
+"contribute.meaning.title" = "📝 想表達什麼？";
+
+"contribute.instruction.nav_title" = "操作說明";
+"contribute.instruction.title" = "如何貢獻一段錄音";
+
+"contribute.instruction.step1" = "1. 在文字框中輸入您想表達的意思（可用中文或英文）。";
+"contribute.instruction.step2" = "2. 點擊麥克風按鈕，錄下您用潮汕話的說法。";
+"contribute.instruction.step3" = "3. 確認錄音清晰後，點擊「提交」。";
+
+"contribute.instruction.tip" = "💡 您可以自然說話，使用自己的表達方式 —— 多元表達是我們所鼓勵的！";
+"contribute.instruction.dismiss" = "關閉";

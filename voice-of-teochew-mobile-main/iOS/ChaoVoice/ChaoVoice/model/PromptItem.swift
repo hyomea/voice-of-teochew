@@ -5,11 +5,15 @@
 //  Created by Xiaomei Huang on 5/29/25.
 //
 
-struct PromptItem: Identifiable, Codable {
+import Foundation
+
+struct PromptItem: Identifiable, Codable, Hashable {
     let id: String
-    let collectionId: String
     let teochew: String?
     let explanation: String
     let english: String?
+    
+    let creatorId: String?
+    let createdAt: Date?
 }
 

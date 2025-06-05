@@ -58,4 +58,22 @@ extension UserProfile {
             return UserProfile()
         }
     }
+    
+    static func getDeviceID() -> String {
+        let key = "app.doraimon.deviceID"
+        if let existing = UserDefaults.standard.string(forKey: key) {
+            return existing
+        } else {
+            let newID = UUID().uuidString
+            UserDefaults.standard.set(newID, forKey: key)
+            return newID
+        }
+    }
+    
+    static func seedFromString(_ string: String) -> UInt64 {
+        var hasher = Hasher()
+        hasher.combine(string)
+        hasher.combine("v1")
+        return UInt64(bitPattern: Int64(hasher.finalize()))
+    }
 }

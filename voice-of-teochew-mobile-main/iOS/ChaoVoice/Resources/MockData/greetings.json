@@ -9,7 +9,7 @@
       { "id": "greet_004", "explanation": "晚上好！", "english": "Good evening!" },
       { "id": "greet_005", "explanation": "你吃饭了吗？", "english": "Have you eaten?" },
       { "id": "greet_006", "explanation": "最近怎么样？", "english": "How have you been?" },
-      { "id": "greet_007", "explanation": "最近还好吗？", "english": "Are you doing okay recently?" },
+      { "id": "greet_007", "explanation": "你是哪里人", "english": "Where are you from?" },
       { "id": "greet_008", "explanation": "今天过得怎么样？", "english": "How's your day going?" },
       { "id": "greet_009", "explanation": "最近忙什么？", "english": "What are you busy with lately?" },
       { "id": "greet_010", "explanation": "今天天气不错啊！", "english": "Nice weather today!" },

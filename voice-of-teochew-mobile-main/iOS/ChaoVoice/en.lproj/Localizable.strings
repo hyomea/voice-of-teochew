@@ -65,3 +65,39 @@
 "dashboard.streak_days" = "day streak";
 
 "mic_button.submit" = "Submit";
+
+"voice_collection.title" = "Voice Collection Guide";
+
+"what_you_do.title" = "📌 What You'll Be Doing";
+"what_you_do.body" = "You’ll see a card that contains:\n\n✅ A meaning or explanation — please say a Teochew sentence that conveys it in your own words.\n\n💬 Tap the card to see the reverse side, which may include a common saying we’ve collected for that meaning — feel free to use it for reference, or speak in your own way.";
+
+"why_it_matters.title" = "🧠 Why It Matters";
+"why_it_matters.body" = "Your voice helps us:\n• Collect authentic Teochew speech and expressions\n• Build open-source models to recognize and preserve the language\n• Document diverse speaking styles across regions";
+
+"speaking_guidelines.title" = "🗣️ Speaking Tips";
+"speaking_guidelines.body" = "• Use your natural accent (Teochew, Shantou, Jieyang… all welcome)\n• Each recording is short, around 2–10 seconds\n• All styles are welcome — we encourage expressive diversity";
+
+"note.title" = "⚠️ Note";
+"note.body" = "If a common saying is provided, treat it as a reference, not the only correct answer. You're encouraged to express the meaning in your own way — we welcome diverse expressions.";
+
+"note.title" = "⚠️ Note";
+"note.body" = "If a suggested Teochew phrase is provided, it’s just for reference — not the only correct way. Feel free to speak how you naturally would. We encourage diverse expressions.";
+
+"card.teochew.label" = "Teochew expression:";
+"card.english.label" = "Explanation:";
+"common_teochew_hint" = "This is just one common expression—regional or family variations may apply. Feel free to follow your own way of saying it.";
+
+"teochew_hint.title" = "Hint";
+"teochew_hint.message" = "This is just one way to say it — regional or family variations may apply. Feel free to follow your own expression.";
+"ok.button" = "Got it";
+
+"contribute.meaning.title" = "📝 What do you want to express?";
+"contribute.instruction.nav_title" = "Instructions";
+"contribute.instruction.title" = "How to Contribute a Recording";
+
+"contribute.instruction.step1" = "1. In the text box, write the meaning you want to express (in English or Chinese).";
+"contribute.instruction.step2" = "2. Tap the mic button to record how you would say it in Teochew.";
+"contribute.instruction.step3" = "3. Make sure your recording is clear, then tap 'Submit'.";
+
+"contribute.instruction.tip" = "💡 You can speak naturally and use your own way of saying things — diversity is welcome!";
+"contribute.instruction.dismiss" = "Close";

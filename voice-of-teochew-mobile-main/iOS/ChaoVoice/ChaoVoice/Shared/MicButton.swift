@@ -10,10 +10,13 @@ struct MicButton: View {
     @EnvironmentObject var permissionManager: PermissionManager
     @EnvironmentObject var recordingManager: RecordingManager
     @Binding var id: Int
+    var disabled: Bool
     
     @State private var showPermissionAlert = false
     @State private var elapsedTime: TimeInterval = 0
     @State private var timer: Timer?
+    
+    var onSubmit: (() -> Void)?
     private let maxDuration: TimeInterval = 15
     private var recordingProgress: Double {
         min(elapsedTime / maxDuration, 1)
@@ -21,22 +24,24 @@ struct MicButton: View {
     var body: some View {
         VStack(spacing: 12) {
             if !recordingManager.isRecording && self.elapsedTime == 0 {
-                Image(systemName:"mic.circle.fill")
-                    .font(.system(size: 36))
-                    .foregroundColor(Color.primaryBlue)
-                    .onTapGesture {
-                        if permissionManager.micPermissionStatus == .authorized {
-                            print("authorized")
-                            if !recordingManager.isRecording {
-                                startRecording()
-                            }
-                        } else {
-                            print("not authorized")
-                            Task {
-                                await requestPermissionAndMaybeRecord()
-                            }
+                Button {
+                    if permissionManager.micPermissionStatus == .authorized {
+                        print("authorized")
+                        if !recordingManager.isRecording {
+                            startRecording()
+                        }
+                    } else {
+                        print("not authorized")
+                        Task {
+                            await requestPermissionAndMaybeRecord()
                         }
                     }
+                } label: {
+                    Image(systemName:"mic.circle.fill")
+                        .font(.system(size: 60))
+                        .foregroundColor(disabled ? Color.gray : Color.primaryBlue)
+                }
+                .disabled(disabled)
             } else {
                 HStack(spacing: 8) {
                     Button {
@@ -44,7 +49,7 @@ struct MicButton: View {
                     } label: {
                         Image(systemName: "xmark.circle")
                     }
-                    .font(.system(size: 24).bold())
+                    .font(.system(size: 32).bold())
                     .foregroundStyle(Color.gray)
                     // Show recording progress by the timer, progress to the left
                     DashedProgressBar(progress: recordingProgress)
@@ -61,7 +66,7 @@ struct MicButton: View {
                                 } label: {
                                     Image(systemName: "stop.circle")
                                 }
-                                .font(.system(size: 24).bold())
+                                .font(.system(size: 32).bold())
                                 .foregroundStyle(Color.primaryBlue)
                                 
                                 Spacer(minLength: 0)
@@ -76,9 +81,9 @@ struct MicButton: View {
                                 } label: {
                                     Image(systemName: recordingManager.isPlaying ? "pause.circle" : "play.circle")
                                 }
-                                .font(.system(size: 24).bold())
+                                .font(.system(size: 32).bold())
                                 .foregroundStyle(Color.primaryBlue)
-                                
+
                                 Spacer(minLength: 0)
 
                                 Button {
@@ -86,7 +91,7 @@ struct MicButton: View {
                                 } label: {
                                     Text("mic_button.submit")
                                 }
-                                .font(.caption)
+                                .font(.system(size: 20))
                                 .padding(.vertical, 6)
                                 .padding(.horizontal, 12)
                                 .foregroundStyle(Color.white)
@@ -159,6 +164,7 @@ struct MicButton: View {
         print("🛑 Complete recording")
         // submit recording
         timer?.invalidate()
+        onSubmit?()
     }
     
     private func reset() {

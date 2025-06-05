@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "collections": [
+    {
+      "id": "greetings",
+      "name": "打招呼",
+      "englishName": "Greetings",
+      "tags": [
+        "daily",
+        "basic"
+      ],
+      "totalCount": 20
+    },
+    {
+      "id": "food",
+      "name": "美食",
+      "englishName": "Food",
+      "tags": [
+        "cuisine",
+        "restaurant"
+      ],
+      "totalCount": 30
+    },
+    {
+      "id": "trade",
+      "name": "街市买卖",
+      "englishName": "Market",
+      "tags": [
+        "shopping",
+        "bargaining"
+      ],
+      "totalCount": 22
+    },
+    {
+      "id": "idioms-1",
+      "name": "谚语俗语 1",
+      "englishName": "Idioms",
+      "tags": [
+        "expression",
+        "traditional"
+      ],
+      "totalCount": 25
+    },
+    {
+      "id": "idioms-2",
+      "name": "谚语俗语 2",
+      "englishName": "Idioms",
+      "tags": [
+        "expression",
+        "traditional"
+      ],
+      "totalCount": 25
+    },
+    {
+      "id": "community",
+      "name": "自说自话",
+      "englishName": "Free Talk",
+      "tags": [
+        "community",
+        "share"
+      ],
+      "totalCount": 25
+    }
+  ]
+}
+

@@ -1,5 +1,5 @@
 {
-  "collectionId": "chaoshan_sayings",
+  "collectionId": "idioms-2",
   "source": "local",
   "version": 1,
   "items": [
@@ -83,7 +83,6 @@
       { "id": "cs_081", "teochew": "食胆大，死胆细", "explanation": "贪吃怕死。", "english": "Bold to eat, timid to die—greedy but scared." },
       { "id": "cs_082", "teochew": "红猪头，摆门楼", "explanation": "讽刺脸抹太红的妇女。", "english": "Red-faced like a sacrificial pig on display—too much makeup." },
       { "id": "cs_083", "teochew": "和尚嘴体体，唔是爱钱住是爱米", "explanation": "忽然恭顺是有求于你。", "english": "Monk grinning politely—not for money, maybe for rice—someone’s up to something." },
-      [
         { "id": "cs_084", "teochew": "俏过王莽", "explanation": "喻器张至极。", "english": "Arrogant beyond Wang Mang—extremely overbearing." },
         { "id": "cs_085", "teochew": "返去内，食老米", "explanation": "辞工不做，回家吃老本。", "english": "Quit your job and live off the old rice—retire on savings." },
         { "id": "cs_086", "teochew": "正月尾，番茨赢过甜粿", "explanation": "正月底的地瓜甜度足。", "english": "Late January sweet potatoes are sweeter than rice cakes." },
@@ -300,13 +299,6 @@
         { "id": "cs_248", "teochew": "宽时物，紧时用", "explanation": "物尽其用，不可浪费。", "english": "Spare when plenty, use when tight." },
         { "id": "cs_249", "teochew": "笑死程咬金，哭死程铁牛", "explanation": "情绪过激，损伤身体。", "english": "Laugh killed Cheng Yaojin, cry killed Cheng Iron Ox." },
         { "id": "cs_250", "teochew": "呾到枝花叠粒蕊", "explanation": "说得天花乱坠，令人信服。", "english": "Talks like petals stacking on stamens—brilliant talker." }
-
-
-
-
-      ]
-
-
   ]
 }
 

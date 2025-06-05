@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct Dashboard: View {
+    @State private var scrollOffset: CGFloat = 0
+    @State private var selectedCollection: PromptCollection? = nil
+    @StateObject private var viewModel = DashboardViewModel()
+    
     let cols = Array(repeating: GridItem(.flexible(), spacing: 16), count: 2)
     let spacing: CGFloat = 16
 
-    @State private var scrollOffset: CGFloat = 0
-    @State private var selectedCategory: SpeechCollectionCategory? = nil
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -29,9 +31,9 @@ struct Dashboard: View {
                     .frame(height: 100)
 
                     LazyVGrid(columns: cols, spacing: spacing) {
-                        ForEach(SpeechCollectionCategory.allCases, id: \.id) { category in
-                            DashboardCardView(category: category) {
-                                selectedCategory = category
+                        ForEach(viewModel.collections, id: \.id) { collection in
+                            DashboardCardView(collection: collection) {
+                                selectedCollection = collection
                             }
                         }
                     }
@@ -45,20 +47,27 @@ struct Dashboard: View {
             }
             .coordinateSpace(name: "scroll")
             .background(Color.background)
-            .navigationDestination(item: $selectedCategory) { category in
-                SpeakingSessionView()
+            .navigationDestination(item: $selectedCollection) { collection in
+                if collection.id == "community" {
+                    ContributeCardView()
+                } else {
+                    SpeakingSessionView(viewModel: PromptListViewModel(selected: collection))
+                }
             }
         }
         .tint(Color.textPrimary)
+        .onAppear {
+            viewModel.loadLocalCollections()
+        }
     }
     
     @ViewBuilder
     func DashboardCardView(
-        category: SpeechCollectionCategory,
+        collection: PromptCollection,
         onClick: @escaping () -> Void
     ) -> some View {
         ZStack {
-            Image(category.backgroundImage)
+            Image(collection.backgroundImage)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .opacity(0.4)
@@ -66,12 +75,12 @@ struct Dashboard: View {
                 .cornerRadius(12)
 
             VStack(spacing: 12) {
-                Image(systemName: category.iconName)
+                Image(systemName: collection.iconName)
                     .resizable()
                     .scaledToFit()
                     .frame(height: 30)
 
-                Text(category.localizedLabel)
+                Text(collection.displayName)
                     .font(.headline)
             }
             .foregroundStyle(Color.textPrimary)

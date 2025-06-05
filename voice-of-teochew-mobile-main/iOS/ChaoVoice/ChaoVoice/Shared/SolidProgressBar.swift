@@ -12,22 +12,28 @@ struct SolidProgressBar: View {
     var currentIndex: Int
     var body: some View {
         GeometryReader { geo in
+            let width = geo.size.width
+            let height = geo.size.height
+            let safeTotal = max(total, 1) // avoid division by zero
+            let progressWidth = width * CGFloat(currentIndex + 1) / CGFloat(safeTotal)
+
             VStack(spacing: 4) {
                 HStack {
                     Spacer()
-                    Text("\(currentIndex + 1) / \(total)")
+                    Text("\(currentIndex + 1) / \(safeTotal)")
                         .font(.caption.bold())
                         .foregroundStyle(Color.primaryBlue)
                 }
                 ZStack(alignment: .leading) {
                     Capsule()
                         .fill(Color.gray.opacity(0.3))
-                        .frame(height: geo.size.height)
+                        .frame(height: height)
                     Capsule()
                         .fill(Color.primaryBlue)
                         .frame(
-                            width: geo.size.width * CGFloat(currentIndex + 1) / CGFloat(total),
-                            height: geo.size.height)
+                            width: progressWidth,
+                            height: height
+                        )
                 }
             }
 
