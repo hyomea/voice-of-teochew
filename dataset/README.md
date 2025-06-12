@@ -46,6 +46,26 @@ yt-dlp -f bestvideo+bestaudio \
   "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
+## download from search:
+1. Download
+```
+yt-dlp --flat-playlist -J "https://www.youtube.com/@xxx/search?query=xxx" > all_videos.json
+```
+2. Extract video id: 
+`extract_vid.py`
+3. Splits the large video_ids.txt file into multiple video_ids_batch_XXX.txt files, each with 10 video IDs.
+```
+split_video_ids.sh
+./split_video_ids.sh
+```
+4. Download videos:
+```
+chmod +x download_batch.sh
+./download_batch.sh video_batches/batch_000.txt
+```
+5. Getting files, convert to wav and images：
+`process_multiple_format_batch.py`
+
 # Directory Structure
 ```
 video_ids.txt         # List of YouTube video IDs
@@ -59,4 +79,7 @@ clips/                # Final output: audio/text pairs
 ```
 caffeinate -dimsu python process_batch.py
 ```
+
+# pass cookies to yt-dlp
+https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp
 
